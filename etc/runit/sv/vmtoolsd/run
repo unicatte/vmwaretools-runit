@@ -1,3 +1,2 @@
-#!/usr/bin/env sh
-
-/usr/bin/vmtoolsd/
+#!/bin/sh
+/usr/bin/vmtoolsd

@@ -1,2 +1,3 @@
-#!/usr/bin/env sh
+#!/bin/sh
 /etc/init.d/vmware-tools start
+exec chpst -b vmwaretools pause

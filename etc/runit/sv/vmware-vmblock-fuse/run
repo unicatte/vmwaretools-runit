@@ -1,6 +1,4 @@
-#!/usr/bin/env sh
-# this is translated from the systemd file, there may be errors
-
+#!/bin/sh
 # check if os is virtualized on vmware
 if [ "$(dmidecode -s system-product-name)" != "VMware Virtual Platform" ]; then exit 0; fi
 
