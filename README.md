@@ -15,7 +15,7 @@ What works:
 
 ```
 $ cd
-$ git clone https://github.com/unicatte/vmware-runit.git
+$ git clone https://github.com/unicatte/vmwaretools-runit.git
 ```
 
 - Install the scripts.
