@@ -9,6 +9,7 @@ What works:
 - ❓ Shared clipboard / drag & drop (didn't work in test environment, likely incompatible with DWM).
 
 ## How to install
+- Install `dmidecode`.
 - Follow the [guide on ArchWiki on how to install VMware Tools](https://wiki.archlinux.org/title/VMware/Install_Arch_Linux_as_a_guest#Installation_(from_guest)).
 - When the need comes to enable systemd services, clone this repository outside of the `open-vm-tools` directory, for instance into your home directory.
 
@@ -25,6 +26,7 @@ $ cd vmware-runit
 ```
 
 This will put all the scripts in the `/etc/runit/sv/` directory, make them executable and enable them.
+- [Do the necessary troubleshooting](https://wiki.archlinux.org/title/VMware/Install_Arch_Linux_as_a_guest#Troubleshooting) if necessary.
 
 ## How to uninstall
 ```
