@@ -6,7 +6,7 @@ Tested on an Artix Linux installation with DWM.
 What works:
 - ✔️ Shared folders.
 - ✔️ Window autofit.
-- ❓Shared clipboard / drag & drop (didn't work in test environment, likely incompatible with DWM).
+- ❓ Shared clipboard / drag & drop (didn't work in test environment, likely incompatible with DWM).
 
 ## How to install
 - Follow the [guide on ArchWiki on how to install VMware Tools](https://wiki.archlinux.org/title/VMware/Install_Arch_Linux_as_a_guest#Installation_(from_guest)).
@@ -31,3 +31,6 @@ This will put all the scripts in the `/etc/runit/sv/` directory, make them execu
 # make uninstall
 ```
 This will stop all the services, disable them and remove the init scripts.
+
+## To do
+- Package the scripts for use with Artix.
